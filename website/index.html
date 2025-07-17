@@ -49,5 +49,37 @@
         <button>Button 1</button>
         <button>Button 2</button>
     </div>
+    <div class="card-row">
+        <div class="card card-commit">First Commit</div>
+        <div class="card card-feature">New Feature</div>
+        <div class="card card-broke">Production Broke</div>
+    </div>
 </body>
+    <style>
+        .card-row {
+            display: flex;
+            gap: 2rem;
+            margin-top: 3rem;
+            justify-content: center;
+        }
+        .card {
+            padding: 2rem 2.5rem;
+            border-radius: 12px;
+            color: #fff;
+            font-size: 1.3rem;
+            font-weight: bold;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            min-width: 160px;
+            text-align: center;
+        }
+        .card-commit {
+            background: #27ae60;
+        }
+        .card-feature {
+            background: #f39c12;
+        }
+        .card-broke {
+            background: #e74c3c;
+        }
+    </style>
 </html>
